@@ -1,0 +1,7 @@
+.app__body{
+    display: flex;
+    overflow-x: hidden;
+}
+.App{
+    background-color: #f0f2f5;
+}

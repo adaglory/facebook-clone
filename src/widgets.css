@@ -1,0 +1,56 @@
+.widgets{
+    width: 100%;
+    padding-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.widgets__img{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.birthday{
+    border-top: 2px solid #E2E3E8;
+    border-bottom: 2px solid #E2E3E8;
+    padding-top: 10px;
+    margin-top: 5px;
+}
+.birthday > h3{
+    color: #c4c4c4;
+}
+.birthday__person{
+    display: flex;
+    align-items: center;
+
+}
+.birthday__person{
+    padding-top: 15px;
+}
+.birthday__person > svg{
+    font-size: 32px;
+   color: #4A7AFF;
+   margin-right: 10px;    
+}
+.birthday__name{
+    padding-right: 10px;
+}
+.birthday__name > p{
+    font-weight: 100;
+    font-size: 14px;
+}
+.contact__menu{
+    display: flex;
+    color: #c4c4c4;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+.contact__icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+}
+.contact__icon > svg{
+    padding: 5px;
+}

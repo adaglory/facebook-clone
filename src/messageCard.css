@@ -1,0 +1,56 @@
+.messageCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 28px 0px rgba(155,148,148,0.25);
+    font-family: 'Noto Sans', sans-serif;
+}
+.messageCard__top{
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    /* justify-content: center; */
+    align-items: center;
+}
+.messageCard__top > form{
+    display: flex;
+    flex: 1;
+}
+.messageCard__top >form >input{
+    outline-width: 0;
+    border: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    border-radius: 100px;
+    background-color: #F4F3F3;
+    font-family: 'Noto Sans', sans-serif;
+}
+.messageCard__top >form > button{
+    display: none;
+}
+.messageCard__input{
+    flex: 1;
+}
+.messageCard__menu > h3{
+color: #c4c4c4;
+font-family: 'Noto Sans', sans-serif;
+font-size: 16px;
+}
+.messageCard__bottom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.messageCard__menu{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
+.messageCard__menu > svg{
+    font-size: 24px;
+    padding-right: 8px;
+}
